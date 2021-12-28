@@ -1,0 +1,18 @@
+{
+    "dbConfig": {
+      "username": "root",
+      "password": "root",
+      "database": "socialhr",
+      "host": "127.0.0.1",
+      "dialect": "mariadb",   
+      "port":3306,
+      "define": {
+        "underscoredAll": true
+      }
+    },
+    "jwtConfig":{
+      "secretekey":"this_is_a_secret_key",
+      "expiretime":"60m"
+    }
+  }
+  
